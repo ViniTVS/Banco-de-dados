@@ -1,3 +1,4 @@
 select distinct
 	P_TYPE 
-from PART;
+from 
+	PART;
