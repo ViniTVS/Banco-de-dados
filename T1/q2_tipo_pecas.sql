@@ -1,4 +1,4 @@
-select distinct
+SELECT DISTINCT
 	P_TYPE 
-from 
+FROM
 	PART;
