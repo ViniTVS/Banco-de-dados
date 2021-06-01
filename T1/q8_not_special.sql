@@ -7,4 +7,4 @@ FROM
 LEFT JOIN ORDERS ON
     CUSTOMER.C_CUSTKEY = ORDERS.O_ORDERKEY
 WHERE 
-	strpos(first_name, 'special request')>0;
+	strpos(O_COMMENT, 'special request')>0;
